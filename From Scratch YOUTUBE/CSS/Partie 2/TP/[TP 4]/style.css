@@ -6,14 +6,16 @@
 body {
     min-height: 100vh;
     width: 100%;
+    padding:10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    /* Pour "dessiner" les grilles */
+/* Pour "dessiner" les grilles */
     grid-template-areas:
         "div1 div1 div2"
         "div4 div3 div2"
         "div4 div5 div5";
+/* Pour ajouter un espace entre les éléments */
     gap: 10px;
 }
 
