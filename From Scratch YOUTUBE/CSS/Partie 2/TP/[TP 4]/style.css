@@ -9,6 +9,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    /* Pour "dessiner" les grilles */
     grid-template-areas:
         "div1 div1 div2"
         "div4 div3 div2"
