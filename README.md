@@ -89,11 +89,12 @@ On ajoute ensuite des colonnes à ces lignes avec la balise ***th***.
     </thead>
 ```
 Une fois les lignes et colonnes assignés au tableau on va mettre en page le tableau dans la balise ***tableau***.
+Cellspacing permet de mettre de l'espace entre les cellules et Cellpadding permet de faire des écarts entre les bords:
 ```
     <table 
         border="4"
-        cellpadding="10" (pour écarter les case des bordure)
-        cellspacing="4" (pour mettre de l'espace entre les cellules)
+        cellpadding="10"
+        cellspacing="4" 
         style="text-align: center"   
     > </table>
 ```
